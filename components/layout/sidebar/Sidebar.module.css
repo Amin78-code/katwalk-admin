@@ -1,0 +1,17 @@
+.active_li {
+  background-color: #181827;
+}
+.active_li {
+  color: #fff;
+}
+.aside_options li {
+    transition: all .3s ease;
+}
+.aside_options li a:hover {
+  background-color: #181827;
+  color: #fff;
+}
+/* .aside_options li:hover li {
+    background-color: #141423;
+    color: #a2a3b7;
+  } */

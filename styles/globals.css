@@ -1,0 +1,127 @@
+/* #141423 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Work";
+  src: url("../assets/fonts/work-sans/WorkSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work-Bold";
+  src: url("../assets/fonts/work-sans/WorkSans-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work-Light";
+  src: url("../assets/fonts/work-sans/WorkSans-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Almarai-Regular";
+  src: url("../assets/fonts/almarai/Almarai-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fahkwang-Regular";
+  src: url("../assets/fonts/fahkwang/Fahkwang-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fahkwang-Light";
+  src: url("../assets/fonts/fahkwang/Fahkwang-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "segoe";
+  src: url("../assets/fonts/segoe-ui/SEGOEUI.TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/* common start */
+.work-regular,
+.fwr {
+  font-family: "Work";
+}
+.work-bold,
+.fwb {
+  font-family: "Work-Bold";
+}
+.work-light,
+.fwl {
+  font-family: "Work-Light";
+}
+.almarai-regular,
+.far {
+  font-family: "Almarai-Regular";
+}
+.fahkwang-regular,
+.ffr {
+  font-family: "Fahkwang-Regular";
+}
+.fahkwang-light,
+.ffl {
+  font-family: "Fahkwang-Light";
+}
+.segoe-regular,
+.fsr {
+  font-family: "segoe";
+}
+.imgtag > span,
+.imgtagcover > span,
+.imgtagcontain > span {
+  width: 100% !important;
+  height: 100% !important;
+}
+.imgtagcover img {
+  object-fit: cover;
+}
+.imgtagcontain img {
+  object-fit: contain;
+}
+.open-dropdown {
+  height: 520px;
+}
+.open-dropdown-40 {
+  height: 40px;
+}
+.open-dropdown-160 {
+  height: 160px;
+}
+.open-dropdown-200 {
+  height: 200px;
+}
+.open-dropdown-320 {
+  height: 320px;
+}
+.taPoint3 {
+  transition: all 0.3s ease;
+}
+.rotate90 {
+  transform: rotate(90deg);
+}
+.rotate45 {
+  transform: rotate(45deg);
+}
+/* common end */
