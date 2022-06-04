@@ -46,7 +46,7 @@ function Login() {
           <div className="flex justify-between mb-[20px]">
             <div className="flex justify-start items-center">
               <input type="checkbox" id="remember" className="w-[16px] h-[16px] bg-[transparent] mr-[12px] border-[1px] border-[#d1d7e2]" />
-              <label for="remember" className="text-[#212529] text-[0.875rem] leading-[1.5] capitalize cursor-pointer">Remember me</label>
+              <label htmlFor="remember" className="text-[#212529] text-[0.875rem] leading-[1.5] capitalize cursor-pointer">Remember me</label>
             </div>
             <p className="text-[#212529] text-[0.875rem] leading-[1.5] cursor-pointer">Forgot password ?</p>
           </div>

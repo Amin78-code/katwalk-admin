@@ -133,7 +133,7 @@ function Sidebar() {
           className="fsr w-[100%] h-[31px] bg-[#8f97ab26] py-[0.25rem] px-[0.5rem] text-[#fff] text-[.875rem] leading-[1.5] rounded-[0.2rem]"
         />
       </div>
-      <i class="las la-battery-three-quarters"></i>
+      <i className="las la-battery-three-quarters"></i>
       <ul className={`${styles.aside_options}`}>
         <li className={`${styles.active_li} py-[10px] px-[25px] min-h-[40px] text-[#a2a3b7] text-[0.875rem] capitalize cursor-pointer overflow-hidden`}><a className="flex items-center"><div className="w-[15px] h-[15px] bg-[#a2a3b7] rounded-full opacity-[.6] mr-[7px]"></div>Dasboard</a></li>
         <li className={` text-[#a2a3b7] text-[0.875rem] capitalize cursor-pointer overflow-hidden`} onClick={() => openDropDown("products")}><a className="flex items-center justify-between py-[10px] px-[25px] min-h-[40px]"><div className="flex items-center"><div className="w-[15px] h-[15px] bg-[#a2a3b7] rounded-full opacity-[.6] mr-[7px]"></div>Products</div><div className="w-[5px] h-[10px] bg-[#a2a3b7] opacity-[.6] mr-[7px] taPoint3" ref={productsChevron}></div></a>
