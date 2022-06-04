@@ -51,7 +51,7 @@ function Login() {
             <p className="text-[#212529] text-[0.875rem] leading-[1.5] cursor-pointer">Forgot password ?</p>
           </div>
           <button className="text-[#fff] text-[1.25rem] leading-[1.5] bg-[#c53a19] rounded-[0.3rem] w-[100%] px-[1rem] py-[0.56rem]">
-            <Link href="#">Login</Link>
+            <Link href="/dashboard">Login</Link>
           </button>
         </div>
       </div>
